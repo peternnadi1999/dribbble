@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+
+    font-family: sans-serif;
+}
+header{
+    background-color: rgba(221, 149, 196, 0.726);
+    float: left;
+    height: 100vh;
+    padding-left: 50px;
+    padding-top: 50px;
+    width: 35vw;
+    position: fixed;
+    top: 0;
+    font-weight: bold;
+   
+}
+header a svg{
+    width: 20%;
+}
+#dda{
+    display: inline-block;
+    width: 100%;
+    float: left;
+    
+}
+#dda a{
+    border: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.goggle{
+    background-color: rgb(87, 87, 221);
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.goggle:hover{
+    background-color: rgb(97, 97, 202);
+    cursor: pointer;
+}
+#dda a svg{
+    background-color:rgb(247, 245, 245);
+    border-radius: 5px;
+    border:0px;
+    padding: 10px;
+    box-shadow: 2px 2px 4px white;
+    width: 30px;
+}
+.dribbble{
+    color: rgb(53, 26, 53);
+    font-family: cursive;
+}
+p{
+    text-align: justify;
+    color: rgb(53, 26, 53);
+    font-weight: bolder;
+    font-size: 20px;
+    font-family:sans-serif ;
+}
+#signup{
+    float: right;
+    font-family:sans-serif ;
+    font-size: 14px;
+    color: rgb(61, 57, 57);
+}
+#signup a{
+    text-decoration: none;
+    font-weight: normal;
+}
+.content{
+   padding-top: 200px;
+    margin: auto;
+    
+   
+}
+
+
+section{
+    margin-left: 50%;
+    margin-top: 10%;
+}
+
+input{
+    padding:10px;
+    color:black;
+    width:60%;
+    margin:8px;
+    border-radius:5px;
+    border:0.5px solid #ce0771;
+    }
+
+input[type=text]{
+   background-color:#b3acaf;
+   border: none;
+   
+    }
+    
+input[type=text]:hover{
+        border:0.5px solid gray;
+        background-color: white;
+        border: 1px solid #ca498e;
+        box-shadow :0 0 8px  #ca498e;
+    }
+   
+
+input[type=password]{
+    background-color:#b3acaf;
+    border: none;
+
+    }
+
+input[type=password]:hover{
+        
+    border:0.5px solid gray;
+    background-color: white;
+    border: 1px solid #ca498e;
+    box-shadow :0 0 8px  #ca498e;
+    }
+
+input[type=submit]{
+        box-shadow:0 0 3px rgb(141, 71, 126);
+        width: 30%;
+        border:0px;
+        color: white;
+        font-weight: bold;
+        text-transform: capitalize;
+        background-color: #dd4395;
+    }
+
+input[type=submit]:hover{
+        background-color: #ec7fb9;
+        cursor: pointer;
+    }
+label{
+        margin-right: 29%;
+        font-size: 14px;
+    }
+a{
+        text-decoration: none;
+        font-size: 12px;
+        color: rgb(25, 25, 202);
+    }
+    .or{
+        color: gray;
+    }
+    
+.or::after{
+        background-color:gray ;
+        width: 50%;
+      glyph-orientation-horizontal: 8px;
+       height: 20px;
+    }
+.or::before{
+        background-color:gray ;
+        width: 50px;
+       border:2px solid gray;
+       height: 20px;
+    }
